@@ -41,3 +41,76 @@ a {
   color: beige;
   font-weight: 700;
 }
+
+/* mid section  */
+
+.left-site {
+}
+h1 {
+  color: #ffffff;
+  font-size: 80px;
+}
+p {
+  color: #ffffff;
+}
+
+button {
+  padding: 8px 40px;
+  background-color: #004643;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.mid-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 120px;
+}
+.left-site {
+}
+
+/* right site  */
+
+.right-site {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.cart {
+  height: 180px;
+  width: 140px;
+  background-position: center;
+  background-size: cover;
+  padding: 2px;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.cart1 {
+  background-image: url(../img/part-01.jpg);
+}
+.cart2 {
+  background-image: url(../img/two.jpg);
+}
+.cart3 {
+  background-image: url(../img/three.jpg);
+}
+.cart4 {
+  background-image: url(../img/raul-varzar-MGQ1ccX5GNQ-unsplash.jpg);
+}
+
+.cart:hover {
+  transform: translateY(-10px);
+}
+h5 {
+  font-size: smaller;
+  color: white;
+}
+
+.cart p {
+  font-size: 10px;
+  color: #fffffe;
+}
